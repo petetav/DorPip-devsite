@@ -1,0 +1,9 @@
+Graphics are free at www.freepik.com
+add normalize
+modernizer and autoprefixer
+standardise font to arial- to best beginings.org.uk in dorpip-blue easy-read size
+Strapline: dorset parent infant psychothreapy
+some type of highlight for the top items
+make the header "sticky"
+Pictures for Links instead of just script
+
