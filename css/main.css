@@ -1,0 +1,522 @@
+@import url('../css/custom_variables.css');
+
+@font-face {
+  font-family: 'chalkboard';
+  src:  url('../fonts/chalkboard.woff2') format('woff2'),
+  url('../fonts/chalkboard.woff') format('woff'),
+  url('../fonts/chalkboard.ttf') format('ttf'),
+  url("../fonts/chalkboard.svg#chalkboard_seregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face{
+	font-family: 'BPreplay';
+	src: url('../fonts/BPreplay.otf');
+}
+ 
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #e6effe; 
+	margin: 0;
+	padding: 0;	
+	color: var(--dorpip-blue);
+	font-family: 'BPreplay', arial, sans-serif;
+	line-height: 2;
+}
+
+/* Static top */
+.static_top{
+	position:sticky;
+	top: 0px;
+}
+
+/******** masthead   *********/
+.header{	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom: #b7b4b4 solid 1px;
+	padding: 0em, 1em, .5em, 1em;
+}
+ a .header {
+	 color: var(--dorpip-pink);
+ }
+
+/*.header-img-logo{
+	
+	margin: 0 0 0 2vw;
+	height:100%;
+	width: 5vw;	
+}
+*/
+
+.title{
+	flex: auto;
+	padding: 0vw 2vw 0vw 3vw;
+	line-height: 1.3;
+
+	
+}
+
+.logo_text_pink{
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 4vw;
+	color:rgb(246, 105, 162);
+	color: var(--dorpip-pink);
+}
+
+.logo_text_blue{
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 4vw;
+	color:rgb(111, 163, 211);
+	color: var(--dorpip-blue);
+}
+
+.title p{
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: .9em;
+	color: navy; 
+}
+
+
+.menu-button a {
+	color: var(--dorpip-pink);
+	text-decoration: none;
+}
+
+.menu-button a:hover {
+	color: var(--dorpip-blue);
+}
+
+ .menu-item{
+	flex: auto;
+	background-color: rgba(255, 255, 255, .1);		
+}
+
+/*.menu-button{
+	width: 8em;
+	height: 4vw;
+	padding: .7vw .3vw .7vw .3vw;
+	border: 2px solid black;
+	border-radius: .5em;
+	background-color:rgba(223, 228, 114, 1);
+	margin: auto;
+	text-align: center;
+}
+*/
+
+h4.menu-button{
+	color:/*#a82727;*/ var(--dorpip-pink);
+	font-size: 1em;
+	font-family: arial;
+	vertical-align: super;
+}
+
+/*.donate_now{
+position:relative;
+	margin-right: 2vw;
+	margin-top: 2.5vw;
+	background-color: #fafc7f;
+	width: 12vw;
+	height:5vw;
+	color: var(--dorpip-pink);	
+	border: 0px solid var(--dorpip-blue);
+	border-radius: 1vw;
+	display: flex;
+	justify-content: center; /* align horizontal */
+/*	align-items: center; /* align vertical */
+/*	font-family: 'chalkboard';
+	font-size: 1.7vw;
+	font-weight: 900;
+	box-shadow: .1em .1em 2em var(--dorpip-blue);
+}
+
+	
+/*.donate_button{
+	position: relative;
+	margin: auto;
+	background-color: #fafc7f;
+	width: 12vw;
+	height:4vw;
+	color: var(--dorpip-pink);	
+	border: 0px solid var(--dorpip-blue);
+	border-radius: 1vw;
+	display: flex;
+	justify-content: center; /* align horizontal */
+/*	align-items: center; /* align vertical */
+/*	font-family: 'chalkboard';
+	font-size: 1.7vw;
+	font-weight: 900;
+	box-shadow: .1em .1em 2em var(--dorpip-blue);
+}
+*/
+
+.bg_gradient{
+position: relative;
+	width: 100%;
+	height: 0;
+	background-image: -webkit-linear-gradient(#ffffff 0%, #e6effe 100%);
+}
+
+/*  Pages   */
+
+.quote{
+	display: inline-block;
+	padding: .1vw 1vw;
+	border-radius: 0 0 .5em 0;
+	box-shadow: 0 0 5px var(--dorpip-blue); 
+	color: var(--dorpip-pink);
+	border: 0;
+	font-size: 1vw;
+	margin: 0;	
+	/*background-color: #cac6c6; */
+}
+	
+ .banner_photos{
+	width: 100vw;
+	height: 20vw; 
+	background-size: cover;
+	background-repeat: no-repeat;
+
+} 
+
+.index{
+		background-image: url(../img/anita_alone.jpg);
+}
+
+.social_media{
+		background-image: url(../img/anita_alone_2.jpg);
+}
+	
+.the_team{
+	color:   /* #0f1e95 */  var(--blurb-navy) ;
+}
+
+.the_team_bods{
+	display: flex;		
+}
+
+/*******  Laptops and over   ***/
+@media screen and (min-width: 700px){
+
+ 
+.container{
+	display:flex;
+	flex-wrap: column;
+	justify-content: space-between;
+	max-width: 100%;
+	background-color: #e6effe  ;
+	margin: auto;
+	padding: 1vw;
+	padding-top: 0;
+}
+
+.container-noflex{
+	width: 80vw;
+	max-width: 1200px;
+	background-color: #e6effe  ;
+	margin: auto;
+	padding: 0;
+}
+
+.twitterbox{
+	flex: 1 ;
+	margin: 0 2vw;
+	margin-top: 3vw;
+}
+
+.blurb{
+	flex: 2 ;
+	max-width: 60vw;
+	height: auto;
+	padding: 2vw 5vw 2vw 4vw;
+	line-height: 1.2;
+	color:   navy, var(--dorpip-blue);
+	background-color: #fff;
+	box-shadow: 50px 50px 50px 20px yellow;
+	margin-right: 2vw;
+}
+
+.blurb-noflex{
+	max-width: 60vw;
+	height: auto;
+	padding: 2vw 5vw 2vw 4vw;
+	line-height: 1.2;
+	color: var(--dorpip-blue);
+	background-color: #fff;
+	font-size: 1.1em;
+	font-family: 'BPreplay', arial;
+	box-shadow: 0px 0px 25px #fff;
+	margin: auto;
+
+}
+
+.blurb-noflex a {
+	color:  var(--dorpip-pink);
+	text-decoration: none;
+}
+
+.blurb h3 h4{
+	color: /*var(--blurb-navy),*/ navy;
+}
+
+.blurb li{
+	color:navy;
+}
+
+li{
+	line-height: 1.8em;
+}
+
+.strapline{
+	position: absolute;
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 1.5vw;
+	color:rgb(111, 163, 211);
+	margin-top: 10vw;
+	right:0;
+	padding-right: 5vw;
+	z-index: 100;
+}
+
+/* menu  */
+.navigation {
+  list-style: none;
+  margin: 0;
+  /*background: deepskyblue; */
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: var(--dorpip-blue);
+  font-family: 'chalkboard', arial, sans-serif;
+  font-size: 1.5vw;
+}
+
+.navigation a:hover {
+  /*background: #00b7f5; */
+  color: var(--dorpip-pink);
+  font-family: 'chalkboard', arial, sans-serif;
+  font-size: 1.5vw;
+}
+
+/*@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  } 
+} */
+/*
+@media all and (max-width: 700px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+/*end of menu */
+
+
+/* Who we are */
+.the_team{
+	background-color: #fff;
+	color: var(--dorpip-blue);
+	padding: 4vw 3vw 2vw 3vw;
+	line-height: 1.7em;
+	border-radius: 1vw;
+	max-width: 960px;
+	margin: auto;
+
+}
+
+.team_bods{
+	display: flex;
+	align-content: space-between;
+}
+
+.team_bods_blurb{
+	flex: 3 ;
+	padding-right: 4vw;
+	color: var(dorpip-blue);
+	
+}
+
+.team_bods_photo{
+	flex: 1 ;
+	margin-top: 2vw;
+	
+}
+
+.team_bods_symbol{
+	flex: 1;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	font-size: 10vw;	
+}
+
+/*  Links   */
+
+.interesting_links{
+	width: 60vw;
+	line-height: 1.5;
+	padding: 3vw 1vw 1vw 1vw;
+	background-color: #fff;
+	border-radius: 1vw;
+	margin:auto;
+}
+
+.interesting_links li {
+	margin: 2vw;
+	padding: 0 	0 2vw 0;
+	border-bottom: 1px solid grey;
+	list-style-type: none;
+ }
+
+/*.links_suggestions{
+	width: 5vw;
+	margin-right: 0;
+	max-width: 25vw;
+
+}  
+
+.links_suggestions_box{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	color: navy;
+	border: 1px solid var(--dorpip-blue);
+	border-radius: 1vw;
+	padding: 1vw;
+	margin-left: -5vw;
+	margin-top: 0vw;	
+} 
+*/
+
+/*Andrea_Leatham */
+.author{
+	color: orange;
+}
+
+.theme{
+	color: white;
+	background-color: orange;
+}
+
+.signoff{
+	font-style: italic;
+	}
+
+/********** Forms  ***********/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* indent the radio buttons */
+input[type=radio]{
+	margin-left:10vw;
+}
+
+input[type=checkbox]{
+	margin-left:5vw;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.form_container {
+    border-radius: 5px;;
+    padding: 20px;
+    margin: auto;
+    background-color: var(--dorpip-grey);
+    margin-top: 3vw;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--dorpip-grey-dk);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  opacity: 1;
+  color: var(--dorpip-grey-dk);
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: var(--dorpip-grey-dk);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: var(--dorpip-grey-dk);
+}
+
+ /*********** Endo of Forms  ***************/ 
+ 
+ .footer{
+	position:fixed;
+	bottom:0;
+	width: 100vw;
+	padding: .4vw;
+	background-color: grey;
+	text-align: center;
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: .7em; 
+	color: black;
+ }
+ 
+ .awaiting-content{
+	 height:50vh;
+	 font-family: cursive;
+	 font-size: 2em;
+	 font-weight: 400;
+	 color: #a82727;
+	 vertical-align: middle;
+	 margin: auto; 
+ }
+ 
+ .awaiting-content p {
+	 text-shadow: 2px 1px  #bdb9b9;
+ }
