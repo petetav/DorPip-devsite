@@ -18,7 +18,7 @@
 
 <!-- navbar -->		
 	<?php include 'includes/navbar-1.php'; ?> 
-</div>
+
 	
 </div> <!-- end of Static_top -->
 
