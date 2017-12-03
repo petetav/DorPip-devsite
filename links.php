@@ -24,8 +24,8 @@
 <div class="container-noflex">
 		
 <div class="interesting_links">
-<h4>Some interesting links</h4> 
 <br/>
+<h4>Some interesting links</h4> 
 <ul>
 	<li class="link_pairs">
 		<div class="link_item"><a href="http://www.1001criticaldays.co.uk/">
@@ -75,9 +75,6 @@
 
 </ul>
 
-
-
-<br/>
 <h4>Further Reading</h4>
 <ul>
 
