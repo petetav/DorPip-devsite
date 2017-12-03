@@ -380,6 +380,8 @@ li{
 	font-size: 10vw;	
 }
 
+
+
 /*  Links   */
 
 .interesting_links{
@@ -394,9 +396,22 @@ li{
 .interesting_links li {
 	margin: 2vw;
 	padding: 0 	0 2vw 0;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid gray;
 	list-style-type: none;
  }
+
+.interesting_links h4{
+	color: var(--dorpip-pink);
+}
+
+.link_pairs{
+	display: flex;	
+}
+
+.link_item{
+	margin: auto;
+	margin-right: 3vw;
+}
 
 /*.links_suggestions{
 	width: 5vw;
@@ -500,6 +515,7 @@ input[type=submit]:hover {
 	bottom:0;
 	width: 100vw;
 	padding: .4vw;
+	margin: 0;
 	background-color: grey;
 	text-align: center;
 	font-family: 'chalkboard', arial, sans-serif;
