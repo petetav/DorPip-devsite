@@ -16,7 +16,7 @@
 	<?php include 'includes/masthead.php'; ?>	
 <!-- <div class="bg_gradient" width="100%"> -->
 
-<!-- navbar -->		
+<!-- navbar -->
 	<?php include 'includes/navbar-1.php'; ?> 
 
 	
