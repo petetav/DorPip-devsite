@@ -396,7 +396,7 @@ li{
 .interesting_links li {
 	margin: 2vw;
 	padding: 0 	0 2vw 0;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid var(--dorpip-grey);
 	list-style-type: none;
  }
 
