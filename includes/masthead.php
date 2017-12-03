@@ -25,7 +25,6 @@
 <!-- coded by http://hivelogic.com/enkoder/index.php 
 <script type="text/javascript">
 //<![CDATA[
-<!--
 var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
 "=93){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
 ".substr(0,ol);}f(\")96,\\\"T^VEI400\\\\5230\\\\;X320\\\\r\\\\700\\\\M]610\\" +
@@ -49,7 +48,7 @@ while(x=eval(x));
 
 <!--</div>
 	
-<!--<div class="burger-menu">
+<div class="burger-menu">
 	<a href="index.php"></a>
 </div>
 -->
