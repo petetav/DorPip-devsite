@@ -405,12 +405,25 @@ li{
 }
 
 .link_pairs{
-	display: flex;	
+	display: flex;
+	justify-content: space-around;
+	
 }
 
 .link_item{
 	margin: auto;
 	margin-right: 3vw;
+	margin-left: 0;
+}
+
+.link_item a{
+	text-decoration: none;
+	color: var(--dorpip-blue);
+}
+
+.link_item a:hover{
+	text-decoration: none;
+	color: var(--dorpip-pink);
 }
 
 /*.links_suggestions{
