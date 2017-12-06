@@ -60,13 +60,14 @@
 
 <br/><br/>
 
+
 <div class="team_bods">
 	<div class="team_bods_blurb">
 <h3>Malcolm Baker - Treasurer</h3>
 
 <p>Malcolm worked for Nat West bank for 37 years. He now works for Morris Lane, Accountants, in Poole as their new business manager.  Malcolm who is married with two grown up children says: </p>
 
-<p>"DorPIP is personal to me as my mum suffered very badly from post natal depression and unfortunately this has severely affected her life.  I joined the Board as I believe this is a vital service and can help make a real difference to families."</p>
+<p>"DorPIP is personal to me as my mum suffered very badly from post natal depression and unfortunately this has severely affected her life.  I joined the Board as I believe this is a vital service and can help make a real difference to families."</p><a name="viv"></a>
 
 </div> <!--   / team bods blurb -->
 	
@@ -81,6 +82,7 @@
 
 <div class="team_bods">
 	<div class="team_bods_blurb">
+
 <h3>Viv Allen - Founder</h3>
 
 <p>Viv has worked in personal development and mental health for many years.  She has developed her knowledge about the importance of safe and secure bonds through her work as a counsellor and also from her lived experience.  When Viv had her own children she suffered from Post Natal Depression and other stressors on the care giving relationship.  Through her own struggles and from working with many adults suffering from mental ill-health Viv has developed a passion to ensure that every baby has the best possible start in life through the establishment of safe and secure relationships with their primary carers.</p>
@@ -92,6 +94,8 @@
 	<img src="img/Viv_Dean.jpg" width="100%">
 </div> <!--  / team bods photo  -->
 </div><!-- /team_bods -->
+
+
 
 </div>
 
