@@ -8,7 +8,8 @@
 	<ul>
 		<li><a href='what.php'>Our vision & approach</a></li>		
 		<li><a href='#'>Our team</a></li>
-		<li><a href='who.php'> - our Trustees</a></li> 
+		<li><a href='who.php'> - our Trustees</a></li>
+		<li><a href='who.php#viv'> - our Founder</a></li> 
 		<!--<li><a href='awaiting.php'> - our Patrons</a></li>-->
 		<!--<li><a href='#'> - our Staff</a></li> -->
 		<li><a href='contact.php'>Testimonials</a></li>
