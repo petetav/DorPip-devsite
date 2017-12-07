@@ -66,8 +66,8 @@
 <h3>Malcolm Baker - Treasurer</h3>
 
 <p>Malcolm worked for Nat West bank for 37 years. He now works for Morris Lane, Accountants, in Poole as their new business manager.  Malcolm who is married with two grown up children says: </p>
-
-<p>"DorPIP is personal to me as my mum suffered very badly from post natal depression and unfortunately this has severely affected her life.  I joined the Board as I believe this is a vital service and can help make a real difference to families."</p><a name="viv"></a>
+<a id="viv"> </a>
+<p>"DorPIP is personal to me as my mum suffered very badly from post natal depression and unfortunately this has severely affected her life.  I joined the Board as I believe this is a vital service and can help make a real difference to families."</p>
 
 </div> <!--   / team bods blurb -->
 	
@@ -84,7 +84,7 @@
 	<div class="team_bods_blurb">
 
 <h3>Viv Allen - Founder</h3>
-
+</a>
 <p>Viv has worked in personal development and mental health for many years.  She has developed her knowledge about the importance of safe and secure bonds through her work as a counsellor and also from her lived experience.  When Viv had her own children she suffered from Post Natal Depression and other stressors on the care giving relationship.  Through her own struggles and from working with many adults suffering from mental ill-health Viv has developed a passion to ensure that every baby has the best possible start in life through the establishment of safe and secure relationships with their primary carers.</p>
 
 <p>Viv who has 2 daughters says “I wanted to establish a specialist service in Dorset to address the needs of the many families who need extra support to help ensure that they develop safe, secure relationships with their infant.  This work is important for our children, our communities and for society as a whole.  Studies have shown that people who are securely attached meet the world from a stronger base making better life choices from diet, exercise to education and career aspirations.  The value to society in raising strong emotionally resilient children will be seen in generations to come.  For commissioners the rate of return to investment in human capital is highest in programs targeted towards the earliest years.  It is sound social policy and economics to ensure that every parent who needs support can access support, early intervention is the key to success."</p>
