@@ -94,7 +94,7 @@
 	<img src="img/Viv_Dean.jpg" width="100%">
 </div> <!--  / team bods photo  -->
 </div><!-- /team_bods -->
-
+</a>
 
 
 </div>
