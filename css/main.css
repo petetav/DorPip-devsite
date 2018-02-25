@@ -67,6 +67,7 @@ body{
 	
 }
 
+	
 .logo_text_pink{
 	font-family: 'chalkboard', arial, sans-serif;
 	font-size: 4vw;
@@ -74,6 +75,7 @@ body{
 	color: var(--dorpip-pink);
 }
 
+	
 .logo_text_blue{
 	font-family: 'chalkboard', arial, sans-serif;
 	font-size: 4vw;
@@ -114,6 +116,7 @@ body{
 }
 */
 
+	
 h4.menu-button{
 	color:/*#a82727;*/ var(--dorpip-pink);
 	font-size: 1em;
@@ -121,6 +124,7 @@ h4.menu-button{
 	vertical-align: super;
 }
 
+	
 /*.donate_now{
 position:relative;
 	margin-right: 2vw;
@@ -177,21 +181,31 @@ position: relative;
 	color: var(--dorpip-pink);
 	border: 0;
 	font-size: 1vw;
-	margin: 0;	
+	margin: 0;
+	margin-top: -5vw;	
 	/*background-color: #cac6c6; */
 }
-	
- .banner_photos{
-	width: 100vw;
-	height: 20vw; 
-	background-size: cover;
-	background-repeat: no-repeat;
 
-} 
 
-.index{
-		background-image: url(../img/anita_alone.jpg);
+
+.banner-photos-container{
+	display: inline-flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 175px;
+	/*border-bottom: 5px solid grey;
+	/*box-shadow: inset 0 0 10px black;*/
 }
+
+.banner-photo{
+	flex: 1;
+
+}
+
+.banner-photo img{
+	width:100%;
+}
+
 
 .social_media{
 		background-image: url(../img/anita_alone_2.jpg);
