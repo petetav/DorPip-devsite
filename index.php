@@ -79,7 +79,7 @@
 
 <p>Referrals are accepted from maternity services, maternal mental health service, health visitors, GPs, children centres, social services and frontline professionals.  Self referrals are also welcomed.</p>
 <br/>
-<h3 style="text-align: center;"><a href="https://youtu.be/6M_-EZpuocA" target="_blank">Click here to watch a short film about PIP UK</a></h3>
+
 
 <br/><br/><br/>
 
