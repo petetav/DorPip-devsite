@@ -1,18 +1,90 @@
+@import url('css/custom_variables.css');
 
 html
 {
   height:100%;
   width:100%;
 }
-body{    
+/*body{    
   background:url('images/jurassic-coast-1089035_1920.jpg') no-repeat;
   background-size: cover;
   height:100%;
 
 }
+*/
+
+body{
+	background: url(img/baby-red-250px%20with%20border.jpg)  repeat;
+}
+
+/* my additions */
+.new_masthead{
+	position: relative;
+	display: inline-block;
+	width: 100vw;
+	height: auto;
+	background-color: white;
+	padding: 1vw 5vw;	
+}
+
+.new_logo{
+	background-color: blue;
+	background-image: url(img/baby-red-125px.jpg);
+	width: 130px;
+	height: 150px;
+	display: inline;
+}
+
+	
+.logo_text_pink{
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 4vw;
+	color:rgb(246, 105, 162);
+	color: var(--dorpip-pink);
+}
+
+	
+.logo_text_blue{
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 4vw;
+	color:rgb(111, 163, 211);
+	color: var(--dorpip-blue);
+}
+
+
+
+/* Static top */
+.static_top{
+	position:sticky;
+	top: 0px;
+}
+
+/******** masthead   *********/
+.header{	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom: #b7b4b4 solid 1px;
+	padding: 0em, 1em, .5em, 1em;
+}
+ a .header {
+	 color: var(--dorpip-pink);
+ }
+
+
+
+
+
+
 
 .form-top{
   margin-top: 30px;
+  
 }
 .panel{
   box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);

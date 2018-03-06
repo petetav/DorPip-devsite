@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>HTML5 Contact Form To Send Email On Form Submission - reusable form</title>
+	    <title>Dorpip content="Dorset Parent infant partnership</title>
+<meta name=“description” content= “Find out all about the Dorset Parent Infant Partnership.”>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Pete Tavener">
+		<link rel="stylesheet" href="css/normalize.css">
+ 	<!--<link rel="stylesheet" href="css/main.css"> -->
+		<link rel="stylesheet" href="css/navbar-1.css">	
+                
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="form.css" >
+       <link rel="stylesheet" href="form.css" >
         <script src="form.js"></script>
-    </head>
-    <body >
-        <div class="container">
+</head>
+    
+    
+    
+<body >
+	
+	<div class="static_top">
+<!--masthead -->
+<div class="new_masthead">
+	<?php include 'includes/new_masthead.php'; ?>
+
+<!--gradient spacer -->
+<div class="bg_gradient" width="100%">
+
+<!-- navbar-1 -->		
+	<?php include 'includes/navbar-1.php'; ?> 
+
+</div>
+</div> <!--end of Static_top -->
+	
+    		    	
+		    
+     
             <!-- Form Started -->
             <div class="container form-top">
                 <div class="row">
