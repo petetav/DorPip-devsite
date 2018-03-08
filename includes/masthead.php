@@ -6,6 +6,7 @@
 -->		
 		
 	<div class="title">
+		<div class=logo></div>				
 		<span class="logo_text_pink">Dor</span>
 		<span class="logo_text_blue">PIP</span> 
 	<!--<p>The Parent Infant Partnership for Dorset - serving families across the county</p>-->
@@ -13,13 +14,12 @@
 	
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Get Help</a></h4></div>
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Get Involved</a></h4></div>
-	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Donate</a></h4></div>
-	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Contact Us</a></h4></div>	
-	
+	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Contact Us</a></h4></div>
+<div class="donate">
+<a href="http://mydonate.bt.com/donation/v4/donate.html?charity=dorpip" target="_blank"><img src="img/BT_donate_button.gif" width="156" height="123"   alt="Donate to us through BT MyDonate"></a></div>
+
+
 </header>
-
-
-
 
 
 <!-- coded by http://hivelogic.com/enkoder/index.php 
