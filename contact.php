@@ -27,7 +27,7 @@
 	<div class="static_top">
 <!--masthead -->
 <div class="new_masthead">
-	<?php include 'includes/new_masthead.php'; ?>
+	<?php include 'includes/masthead.php'; ?>
 
 <!--gradient spacer -->
 <div class="bg_gradient" width="100%">
