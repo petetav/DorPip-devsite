@@ -26,6 +26,7 @@ body{
 	color: var(--dorpip-blue);
 	font-family: 'BPreplay', arial, sans-serif;
 	line-height: 2;
+	
 }
 
 /* Static top */
@@ -283,8 +284,9 @@ position: relative;
 	background-color: #fff;
 	font-size: 1.1em;
 	font-family: 'BPreplay', arial;
-	box-shadow: 0px 0px 25px #fff;
 	margin: auto;
+	margin-top: 1vw;
+	border: 1px solid lightgray;
 
 }
 
