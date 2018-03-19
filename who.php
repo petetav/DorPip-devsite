@@ -19,7 +19,7 @@
 </div>
 </div> <!--end of Static_top -->
 
-<div class="container-noflex">
+<div class="container-noflex-who">
 
 <div class="the_team">
 
