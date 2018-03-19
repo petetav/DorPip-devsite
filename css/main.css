@@ -1,4 +1,4 @@
-@import url('../css/custom_variables.css');
+/*@import url('../css/custom_variables.css'); */
 
 @font-face {
   font-family: 'chalkboard';
@@ -123,66 +123,15 @@ body{
 	background-color: rgba(255, 255, 255, .1);		
 }
 
-/*.menu-button{
-	width: 8em;
-	height: 4vw;
-	padding: .7vw .3vw .7vw .3vw;
-	border: 2px solid black;
-	border-radius: .5em;
-	background-color:rgba(223, 228, 114, 1);
-	margin: auto;
-	text-align: center;
-}
-*/
-
 	
 h4.menu-button{
-	color:/*#a82727;*/ var(--dorpip-pink);
+	color:var(--dorpip-pink);
 	font-size: 1em;
 	font-family: arial;
 	vertical-align: super;
 }
 
 	
-/*.donate_now{
-position:relative;
-	margin-right: 2vw;
-	margin-top: 2.5vw;
-	background-color: #fafc7f;
-	width: 12vw;
-	height:5vw;
-	color: var(--dorpip-pink);	
-	border: 0px solid var(--dorpip-blue);
-	border-radius: 1vw;
-	display: flex;
-	justify-content: center; /* align horizontal */
-/*	align-items: center; /* align vertical */
-/*	font-family: 'chalkboard';
-	font-size: 1.7vw;
-	font-weight: 900;
-	box-shadow: .1em .1em 2em var(--dorpip-blue);
-}
-
-	
-/*.donate_button{
-	position: relative;
-	margin: auto;
-	background-color: #fafc7f;
-	width: 12vw;
-	height:4vw;
-	color: var(--dorpip-pink);	
-	border: 0px solid var(--dorpip-blue);
-	border-radius: 1vw;
-	display: flex;
-	justify-content: center; /* align horizontal */
-/*	align-items: center; /* align vertical */
-/*	font-family: 'chalkboard';
-	font-size: 1.7vw;
-	font-weight: 900;
-	box-shadow: .1em .1em 2em var(--dorpip-blue);
-}
-*/
-
 .bg_gradient{
 position: relative;
 	width: 100%;
@@ -227,7 +176,7 @@ position: relative;
 
 	
 .the_team{
-	color:   /* #0f1e95 */  var(--blurb-navy) ;
+	color: var(--dorpip-blue);
 }
 
 .the_team_bods{
@@ -244,6 +193,7 @@ position: relative;
 	justify-content: space-between;
 	max-width: 100%;
 	background-color: #e6effe  ;
+	color: var(--dorpip-blue);
 	margin: auto;
 	padding: 1vw;
 	padding-top: 0;
@@ -252,7 +202,8 @@ position: relative;
 .container-noflex{
 	width: 80vw;
 	max-width: 1200px;
-	background-color: #e6effe  ;
+	background-color: #e6effe;
+	/*color: var(--dorpip-blue); */
 	margin: auto;
 	padding: 0;
 }
@@ -269,7 +220,7 @@ position: relative;
 	height: auto;
 	padding: 2vw 5vw 2vw 4vw;
 	line-height: 1.2;
-	color:   navy, var(--dorpip-blue);
+	color: var(--dorpip-blue);
 	background-color: #fff;
 	box-shadow: 50px 50px 50px 20px yellow;
 	margin-right: 2vw;
@@ -295,12 +246,9 @@ position: relative;
 	text-decoration: none;
 }
 
-.blurb h3 h4{
-	color: /*var(--blurb-navy),*/ navy;
-}
 
 .blurb li{
-	color:navy;
+	color: var(--dorpip-blue);
 }
 
 li{
@@ -392,8 +340,11 @@ li{
 .team_bods_blurb{
 	flex: 3 ;
 	padding-right: 4vw;
-	color: var(dorpip-blue);
-	
+	color: var(--dorpip-blue);	
+}
+
+.team_bods_blurb p{
+	color: var(--dorpip-blue);
 }
 
 .team_bods_photo{
