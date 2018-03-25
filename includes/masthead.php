@@ -16,7 +16,7 @@
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Get Involved</a></h4></div>
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Contact Us</a></h4></div>
 <div class="donate">
-<a href="http://mydonate.bt.com/donation/v4/donate.html?charity=dorpip" target="_blank"><img src="img/BT_donate_button.gif" width="156" height="123"   alt="Donate to us through BT MyDonate"></a></div>
+<a href="http://mydonate.bt.com/donation/v4/donate.html?charity=dorpip" target="_blank"><img src="img/BT_donate_button.svg" width="60%" alt="Donate to us through BT MyDonate"></a></div>
 
 
 </header>
