@@ -1,5 +1,3 @@
-/*@import url('../css/custom_variables.css'); */
-
 @font-face {
   font-family: 'chalkboard';
   src:  url('../fonts/chalkboard.woff2') format('woff2'),
@@ -14,6 +12,7 @@
 	font-family: 'BPreplay';
 	src: url('../fonts/BPreplay.otf');
 }
+
  
 *{
 	box-sizing: border-box;
@@ -52,13 +51,6 @@ body{
 	 color: var(--dorpip-pink);
  }
 
-/*.header-img-logo{
-	
-	margin: 0 0 0 2vw;
-	height:100%;
-	width: 5vw;	
-}
-*/
 
 .title{
 	flex: auto;
@@ -100,8 +92,14 @@ body{
 
 .donate{
 	margin: 1vw 1vw 0  0;
-	
 }  
+
+/*remove the donate button */
+@media only screen and (max-width: 1000px) {
+   .donate {
+        display: none;
+    }
+}
 
 .menu-button a {
 	color: var(--dorpip-pink);
@@ -157,7 +155,6 @@ position: relative;
 	display: inline-flex;
 	flex-wrap: nowrap;
 	width: 100%;
-	height: 175px;
 	/*border-bottom: 5px solid grey;
 	/*box-shadow: inset 0 0 10px black;*/
 }
@@ -180,8 +177,8 @@ position: relative;
 	display: flex;		
 }
 
-/*******  Laptops and over   ***/
-@media screen and (min-width: 700px){
+
+
 
  
 .container{
@@ -236,7 +233,7 @@ position: relative;
 .blurb-noflex{
 	max-width: 60vw;
 	height: auto;
-	padding: 2vw 5vw 2vw 4vw;
+	padding: 2vw 5vw 2vw 4vw; 
 	line-height: 1.2;
 	color: var(--dorpip-blue);
 	background-color: #fff;

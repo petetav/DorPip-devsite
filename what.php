@@ -18,7 +18,7 @@
 
 </div>
 </div> <!--end of Static_top -->
-
+<br><br>
 <div class="container-noflex">
 	<div class="blurb-noflex">
 <br/>
@@ -47,7 +47,7 @@
 
 
 </div> <!-- end of container --> 
-
+<br><br>
 <footer>
 	<?php include 'includes/footer.php'; ?>
 </footer>

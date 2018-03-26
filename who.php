@@ -18,7 +18,7 @@
 
 </div>
 </div> <!--end of Static_top -->
-
+<br><br>
 <div class="container-noflex-who">
 
 <div class="the_team">
@@ -101,6 +101,7 @@
 
 
 </div> <!-- end of container --> 
+<br><br>
 <footer>
 	<?php include 'includes/footer.php'; ?>
 </footer>

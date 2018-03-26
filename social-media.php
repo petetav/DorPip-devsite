@@ -64,7 +64,7 @@
 	
 </div> <!-- end of blurb -->
 </div> <!--end of container-->
-
+<br>
 <footer>
 	<?php include 'includes/footer.php'; ?>
 </footer>
