@@ -89,7 +89,7 @@
 	
 
 </div> <!-- end of container -->
-
+<br><br>
 <footer>
 	<?php include 'includes/footer.php'; ?>
 </footer>

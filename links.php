@@ -19,7 +19,7 @@
 
 </div>
 </div> <!--end of Static_top -->
-<br><br>
+<br><br><br>
 
 <div class="container-noflex">
 		
@@ -29,48 +29,48 @@
 <ul>
 	<li class="link_pairs">
 		<div class="link_item"><a href="http://www.1001criticaldays.co.uk/">
-<img src="img/1001_critical%20_days.png" alt="1001_critical%20_days" width="200">
+<img src="img/graphics/1001_critical%20_days.png" alt="1001_critical%20_days" width="200">
 </a></div>
 
 <p class="link_item">The 1001 Critical Days manifesto highlights the importance of intervening early in the 1001 critical days between conception to age 2 to enhance the outcomes for children.</p></li>
 
 	
 	<li class="link_pairs">
-	<div class="link_item"><a href="http://www.aimh.org.uk/"><img src="img/AIMH.png" alt="AIMH" width="200"></a></div>
+	<div class="link_item"><a href="http://www.aimh.org.uk/"><img src="img/graphics/AIMH.png" alt="AIMH" width="200"></a></div>
 		
 <p class="list_item">...to bring together professionals, from many fields, who work with infants, young children and their families...</p></li>
 	
 	
 	<li class="link_pairs">
-	<div class="link_item"><a href="http://www.annafreud.org/"><img src="img/anna_freud-logo.png" alt="anna_freud-logo" width="200"></a></div>
+	<div class="link_item"><a href="http://www.annafreud.org/"><img src="img/graphics/anna_freud-logo.png" alt="anna_freud-logo" width="200"></a></div>
 <p class="link_item">Our vision is a world where children and families are supported effectively to build on their strengths and to achieve their goals in life.
 </p></li>
 	<li class="link_pairs">
-			<div class="link_item"><a href="https://www.dorsetforyou.gov.uk/childrens-services"><img src="img/dorset_for_you.jpg" alt="dorset_for_you" width="200"></a></div>
+			<div class="link_item"><a href="https://www.dorsetforyou.gov.uk/childrens-services"><img src="img/graphics/dorset_for_you.jpg" alt="dorset_for_you" width="200"></a></div>
 						<p class="link_item">The Children's Services directorate gives support to meet the needs of children, young people and families in Dorset.</p></li>
 	
 	<li class="link_pairs">
-			<div class="link_item"><a href="https://heckmanequation.org/resource/the-economics-of-human-development-and-social-mobility/"><img src="img/heckman-logo.png" alt="heckman-logo" width="200" ></a></div>
+			<div class="link_item"><a href="https://heckmanequation.org/resource/the-economics-of-human-development-and-social-mobility/"><img src="img/graphics/heckman-logo.png" alt="heckman-logo" width="200" ></a></div>
 						<p class="link_item">This paper lays out the evidence on the importance of early life conditions in shaping multiple life skills.</p></li>
 	
 	<li class="link_pairs">
-			<div class="link_item"><a href="https://www.nct.org.uk/"><img src="img/nct-logo.png" alt="nct-logo" width="200"></a></div>
+			<div class="link_item"><a href="https://www.nct.org.uk/"><img src="img/graphics/nct-logo.png" alt="nct-logo" width="200"></a></div>
 						<p class="link_item">Valuable free resources & information on each stage of your pregnancy.</li>
 	
 	<li class="link_pairs">
-			<div class="link_item"><a href="https://www.netmums.com"><img src="img/netmums.png" alt="netmums" width="200"></a></div>
+			<div class="link_item"><a href="https://www.netmums.com"><img src="img/graphics/netmums.png" alt="netmums" width="200"></a></div>
 						<p class="link_item">Netmums is the UKs biggest parenting website offering local info, expert parenting advice, chat, competitions, recipes and friendly support.</li>
 				
 	<li class="link_pairs">
-			<div class="link_item"><a href="http://www.nhs.uk/conditions/pregnancy-and-baby/pages/dad-to-be-pregnant-partner.aspx"><img src="img/NHS_choices.png" alt="NHS_choices" width="200"></a></div>
+			<div class="link_item"><a href="http://www.nhs.uk/conditions/pregnancy-and-baby/pages/dad-to-be-pregnant-partner.aspx"><img src="img/graphics/NHS_choices.png" alt="NHS_choices" width="200"></a></div>
 						<p class="link_item">Pregnancy, birth and beyond for dads and partners.</li>
 	
 	<li class="link_pairs">
-			<div class="link_item"><a href="http://www.pipuk.org.uk/"><img src="img/PIP_%20UK_logo.png" alt="PIP_%20UK_logo" width="200"></a></div>
+			<div class="link_item"><a href="http://www.pipuk.org.uk/"><img src="img/graphics/PIP_%20UK_logo.png" alt="PIP_%20UK_logo" width="200"></a></div>
 						<p class="link_item">Creating a better future for the UK - one baby at a time ©</li>
 	
 	<li class="link_pairs">
-			<div class="link_item"><a href="http://www.understandingchildhood.net/"><img src="img/understanding_childhood_logo.png" alt="understanding_childhood_logo" width="200"></a></div>
+			<div class="link_item"><a href="http://www.understandingchildhood.net/"><img src="img/graphics/understanding_childhood_logo.png" alt="understanding_childhood_logo" width="200"></a></div>
 						<p class="link_item">Understanding Childhood provides downloadable information leaflets for families and childcare professionals to help raise emotionally secure children.</li>
 
 </ul>

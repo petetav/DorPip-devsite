@@ -18,7 +18,7 @@
 
 </div>
 </div> <!--end of Static_top -->
-<br><br>
+<br><br><br>
 <div class="container-noflex-who">
 
 <div class="the_team">
@@ -36,7 +36,7 @@
 </div> <!--   / team bods blurb -->
 	
 <div class="team_bods_photo">
-	<img src="img/Andy_Mayers.jpg" width="100%">
+	<img src="img/mugshots/Andy_Mayers.jpg" width="100%">
 </div> <!--  / team bods photo  -->
 
 </div> <!-- /team_bods -->
@@ -53,7 +53,7 @@
 </div> <!--   / team bods blurb -->
 	
 <div class="team_bods_photo">
-	<img src="img/David_Doyle.jpg" width="100%"> 
+	<img src="img/mugshots/David_Doyle.jpg" width="100%"> 
 </div> <!--  / team bods photo  -->
 
 </div> <!-- /team_bods -->
@@ -72,7 +72,7 @@
 </div> <!--   / team bods blurb -->
 	
 <div class="team_bods_photo">
-	<img src="img/Malcolm_1.jpg" width="100%">
+	<img src="img/mugshots/Malcolm_1.jpg" width="100%">
 </div> <!--  / team bods photo  -->
 
 </div> <!-- /team_bods -->
@@ -91,7 +91,7 @@
 
 </div> <!-- /team_bods_blurb  -->
 <div class="team_bods_photo">
-	<img src="img/Viv_Dean.jpg" width="100%">
+	<img src="img/mugshots/Viv_Dean.jpg" width="100%">
 </div> <!--  / team bods photo  -->
 </div><!-- /team_bods -->
 </a>

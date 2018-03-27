@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/navbar-1.css">
 	<link rel="stylesheet" href="css/custom_variables.css">	
 	
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/img/icons/favicon.ico" type="image/x-icon">
 
 	

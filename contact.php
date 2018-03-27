@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-	    <title>Dorpip content="Dorset Parent infant partnership</title>
-<meta name=“description” content= “Find out all about the Dorset Parent Infant Partnership.”>
-<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Pete Tavener">
-		<link rel="stylesheet" href="css/normalize.css">
- 	<!--<link rel="stylesheet" href="css/main.css"> -->
-		<link rel="stylesheet" href="css/navbar-1.css">	
+<html lang="en"
+<head>
+	<title>Contact Page</title>
+	<meta name="description" content="All about the Dorset Parent Infant Partnership.">
+
+	<?php include 'includes/head.php'; ?>
                 
         <!-- Latest compiled and minified CSS -->
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -80,5 +76,9 @@
             </div>
             <!-- Form Ended -->
         </div>
+<br><br>
+<footer>
+	<?php include 'includes/footer.php'; ?>
+</footer>
     </body>
 </html>

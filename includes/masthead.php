@@ -1,12 +1,7 @@
 <header class="header">
-	
-<!--	<div class="header-img-logo">
-		<img src="img/mother_baby_logo_6.svg" height="100%">
-	</div>
--->		
-		
+			
 	<div class="title">
-		<div class=logo></div>				
+		<div class="logo"></div>				
 		<span class="logo_text_pink">Dor</span>
 		<span class="logo_text_blue">PIP</span> 
 	<!--<p>The Parent Infant Partnership for Dorset - serving families across the county</p>-->
@@ -16,7 +11,7 @@
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Get Involved</a></h4></div>
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Contact Us</a></h4></div>
 <div class="donate">
-<a href="http://mydonate.bt.com/donation/v4/donate.html?charity=dorpip" target="_blank"><img src="img/BT_donate_button.svg" width="60%" alt="Donate to us through BT MyDonate"></a></div>
+<a href="http://mydonate.bt.com/donation/v4/donate.html?charity=dorpip" target="_blank"><img src="img/buttons/BT_donate_button.svg" width="60%" alt="Donate to us through BT MyDonate"></a></div>
 
 
 </header>
