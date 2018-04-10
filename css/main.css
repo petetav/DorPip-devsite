@@ -140,7 +140,14 @@ position: relative;
 	/*background-color: #cac6c6; */
 }
 
-
+#booking_button{
+	position: relative;
+	width: 200px;
+	height: 100px;
+	margin-top: 100vw;
+	margin-left: 20px;
+	background-color: aqua;
+}
 
 .banner-photos-container{
 	display: inline-flex;
