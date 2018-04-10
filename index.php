@@ -47,6 +47,17 @@
 — Dr. Seuss</div>
 </div>
 
+<!-- Booking button -->
+<div id="booking_button>">
+<div id="TTE-booknow-2oNAhzYxh2dsFBqgDOVeGT0QDydjPAPWIYB4Ldtl" ></div>
+<script src="//d3saea0ftg7bjt.cloudfront.net/bn/js/bn.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  TTEBOOKNOW.init({
+    "targetDivId": "TTE-booknow-2oNAhzYxh2dsFBqgDOVeGT0QDydjPAPWIYB4Ldtl", 
+    "cpgn": "2oNAhzYxh2dsFBqgDOVeGT0QDydjPAPWIYB4Ldtl"
+  });
+</script>
+</div>
 
 <div class="container-noflex">
 
