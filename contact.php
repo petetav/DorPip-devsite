@@ -22,7 +22,7 @@
 	
 	<div class="static_top">
 <!--masthead -->
-<div>
+<div class="new_masthead">
 	<?php include 'includes/masthead.php'; ?>
 
 <!--gradient spacer -->
