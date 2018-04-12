@@ -34,6 +34,13 @@ body{
 }
 
 /******** masthead   *********/
+
+.menu-button menu-item{
+	display: none;	
+}
+
+
+@media only and (min-width: 700px) {
 .header{	
 	display: flex;
 	flex-direction: row;
@@ -49,7 +56,7 @@ body{
  a .header {
 	 color: var(--dorpip-pink);
  }
-
+}
 
 .title{
 	flex: auto;
@@ -86,12 +93,15 @@ body{
 }  
 
 /*remove the donate button */
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1000px) {
    .donate {
         display: none;
     }
 }
 
+
+
+@media only screen and (min-width;770px){
 .menu-button a {
 	color: var(--dorpip-pink);
 	text-decoration: none;
@@ -116,8 +126,7 @@ h4.menu-button{
 	font-family: arial;
 	vertical-align: super;
 }
-
-	
+}	
 .bg_gradient{
 position: relative;
 	width: 100%;

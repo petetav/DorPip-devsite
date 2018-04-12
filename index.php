@@ -6,7 +6,8 @@
 	<title>Home page </title>
 	<meta name="description" content="All about the Dorset Parent Infant Partnership.">
 	
-	<?php include 'includes/head.php'; ?>	
+	<?php include 'includes/head.
+		php'; ?>	
 	
 
 </head>
