@@ -2,7 +2,7 @@ Graphics are free at www.freepik.com
 
 Strapline: dorset parent infant psychotherapy
 
-Breakpoints 680px: 	Go to Hamburger menu
+Breakpoints 700px: 	Go to Hamburger menu
 				Container width goes to 95vw
 		1000px:	Donate button leaves top shelf
 				Container width moves to 90vw

@@ -27,11 +27,13 @@ body{
 	line-height: 1;
 }
 
+
 /* Static top */
 .static_top{
 	position:sticky;
 	top: 0px;
 }
+
 
 /******** masthead   *********/
 .header{	
@@ -49,7 +51,6 @@ body{
  a .header {
 	 color: var(--dorpip-pink);
  }
-
 
 .title{
 	flex: auto;
@@ -92,6 +93,8 @@ body{
     }
 }
 
+
+
 .menu-button a {
 	color: var(--dorpip-pink);
 	text-decoration: none;
@@ -117,6 +120,23 @@ h4.menu-button{
 	vertical-align: super;
 }
 
+/*replace the top menu items with hambuger menu */
+
+
+@media only screen and (max-width: 700px){
+	.menu-button a {
+		display: none;
+	}
+	.hamburger{
+		padding-right: 5vw;
+	}
+}
+
+@media only screen and (min-width: 700px){
+	.hamburger{
+		display: none;
+	}
+}
 	
 .bg_gradient{
 position: relative;

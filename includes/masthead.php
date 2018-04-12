@@ -10,10 +10,11 @@
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Get Help</a></h4></div>
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Get Involved</a></h4></div>
 	<div class="menu-item"><h4 class="menu-button"><a href="contact.php">Contact Us</a></h4></div>
+
 <div class="donate">
 <a href="http://mydonate.bt.com/donation/v4/donate.html?charity=dorpip" target="_blank"><img src="img/buttons/BT_donate_button.svg" width="60%" alt="Donate to us through BT MyDonate"></a></div>
 
-
+<div class="hamburger"><a href="dropdown-navbar.php"><img src="img/icons/hamburger-icon.svg" width="35vw" background-colour="blue"> </a></div>
 </header>
 
 
