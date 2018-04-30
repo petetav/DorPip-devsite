@@ -1,0 +1,592 @@
+@font-face {
+  font-family: 'chalkboard';
+  src:  url('../fonts/chalkboard.woff2') format('woff2'),
+  url('../fonts/chalkboard.woff') format('woff'),
+  url('../fonts/chalkboard.ttf') format('ttf'),
+  url("../fonts/chalkboard.svg#chalkboard_seregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face{
+	font-family: 'BPreplay';
+	src: url('../fonts/BPreplay.otf');
+}
+
+ 
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: var(--dorpip-background-color);
+	margin: 0;
+	padding: 0;
+	color: var(--dorpip-blue);
+	font-family: 'BPreplay', arial, sans-serif;
+	line-height: 1;
+}
+
+
+/* Static top */
+.static_top{
+	position:sticky;
+	top: 0px;
+}
+
+
+/******** masthead   *********/
+.header{	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin: 0;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom: #b7b4b4 solid 1px;
+	padding: 0em, 1em, .5em, 1em;
+}
+ a .header {
+	 color: var(--dorpip-pink);
+ }
+
+.title{
+	flex: auto;
+	padding: 0 0 0 2vw;
+	line-height: 1.3;
+}
+
+
+.logo{
+	width: 9.6vw;
+	height: 7.5vw;
+	background-image: url(../img/graphics/baby-red-125px.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: contain;
+	margin: 1vw 0 0 2vw;
+}
+	
+.logo_text_pink{
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 7vw;
+	color: var(--dorpip-pink);
+}
+
+.logo_text_blue{
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 7vw;
+	color: var(--dorpip-blue);
+}
+
+
+.donate{
+	margin: 1vw 1vw 0  0;
+}  
+
+/*remove the donate button */
+@media only screen and (max-width: 1000px) {
+   .donate {
+        display: none;
+    }
+}
+
+
+
+.menu-button a {
+	color: var(--dorpip-pink);
+	text-decoration: none;
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: larger;
+}
+
+.menu-button a:hover {
+	color: var(--dorpip-blue);
+	font-family: 'chalkboard', arial, sans-serif;
+}
+
+ .menu-item{
+	flex: auto;
+	background-color: rgba(255, 255, 255, .1);		
+}
+
+	
+h4.menu-button{
+	color:var(--dorpip-pink);
+	font-size: 1em;
+	font-family: arial;
+	vertical-align: super;
+}
+
+/*replace the top menu items with hambuger menu */
+
+
+@media only screen and (max-width: 700px){
+	.menu-button a {
+		display: none;
+	}
+	.hamburger{
+		padding-right: 5vw;
+	}
+	
+}
+
+@media only screen and (min-width: 700px){
+	.hamburger{
+		display: none;
+	}
+}
+	
+.bg_gradient{
+position: relative;
+	width: 100%;
+	height: 0;
+	background-image: -webkit-linear-gradient(#ffffff 0%, #e6effe 100%);
+}
+
+/*  Pages   */
+
+.quote{
+	display: none;
+	padding: .1vw 1vw;
+	border-radius: 0 0 .5em 0;
+	box-shadow: 0 0 5px var(--dorpip-blue); 
+	color: var(--dorpip-pink);
+	border: 0;
+	font-size: 1vw;
+	margin: 0;
+	margin-top: -5vw;	
+	/*background-color: #cac6c6; */
+}
+
+#booking_button{
+	position: relative;
+	float: right;
+	width: 200px;
+	height: 100px;
+	margin-top: 100vw;
+	margin-left: 20px;
+	background-color: aqua;
+}
+
+.tte-bn-c .tte-btn{
+	background-color: var(--dorpip-pink) !important;
+	box-shadow: .3vw .3vw gray !important;
+	position:relative;
+	float: right !important;
+	margin-right: 2vw !important;
+	margin-top: -1em;
+
+}
+
+a tte-btn-wrapper {
+
+}
+
+#tte-bn-c-0 > div:nth-child(2) > span{
+	color:var(--dorpip-background-color) !important;
+}
+
+#tte-bn-c-0 > div:nth-child(2) > a{
+	color:var(--dorpip-background-color) !important;
+}
+
+/*	background-color: var(--dorpip-background-color) !important; */
+
+.banner-photos-container{
+	display: inline-flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	/*border-bottom: 5px solid grey;
+	/*box-shadow: inset 0 0 10px black;*/
+}
+
+.banner-photo{
+	flex: 1;
+
+}
+
+.banner-photo img{
+	width:100%;
+}
+
+	
+.the_team{
+	color: var(--dorpip-blue);
+}
+
+.the_team_bods{
+	display: flex;		
+}
+
+
+
+
+ 
+.container{
+	display:flex;
+	flex-wrap: column;
+	justify-content: space-between;
+	max-width: 100%;
+	background-color: #e6effe  ;
+	color: var(--dorpip-blue);
+	margin: auto;
+	padding: 1vw;
+	padding-top: 0;
+}
+
+.container-noflex{
+	width: 80vw;
+	max-width: 1200px;
+	background-color: #e6effe;
+	/*color: var(--dorpip-blue); */
+	margin: auto;
+	padding: 0;
+}
+
+
+.container-noflex-who{
+	width: 80vw;
+	max-width: 1200px;
+	background-color: #e6effe;
+	/*color: var(--dorpip-blue); */
+	margin: auto;
+	padding: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+   .container-noflex {
+        width: 90vw;
+    }
+}
+
+
+.twitterbox{
+	flex: 1 ;
+	margin: 0 2vw;
+	margin-top: 3vw;
+}
+
+.blurb{
+	flex: 2 ;
+	max-width: 60vw;
+	height: auto;
+	padding: 2vw 5vw 2vw 4vw;
+	line-height: 1.2;
+	color: var(--dorpip-blue);
+	background-color: #fff;
+	box-shadow: 50px 50px 50px 20px yellow;
+	margin-right: 2vw;
+}
+
+.blurb-noflex{
+	max-width: 95%;
+	height: auto;
+	padding: 2vw 5vw 2vw 4vw; 
+	line-height: 1.2;
+	color: var(--dorpip-blue);
+	background-color: #fff;
+	font-size: 1.1em;
+	font-family: 'BPreplay', arial;
+	margin: auto;
+	margin-top: 1vw;
+	border: 1px solid lightgray;
+
+}
+
+.blurb-noflex a {
+	color:  var(--dorpip-pink);
+	text-decoration: none;
+}
+
+
+.blurb li{
+	color: var(--dorpip-blue);
+}
+
+li{
+	line-height: 1.8em;
+}
+
+.strapline{
+	position: absolute;
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: 1.5vw;
+	color:rgb(111, 163, 211);
+	margin-top: 10vw;
+	right:0;
+	padding-right: 5vw;
+	z-index: 100;
+}
+
+/* menu  */
+.navigation {
+  list-style: none;
+  margin: 0;
+  /*background: deepskyblue; */
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: var(--dorpip-blue);
+  font-family: 'chalkboard', arial, sans-serif;
+  font-size: 1.5vw;
+}
+
+.navigation a:hover {
+  /*background: #00b7f5; */
+  color: var(--dorpip-pink);
+  font-family: 'chalkboard', arial, sans-serif;
+  font-size: 1.5vw;
+}
+
+/*@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  } 
+} */
+/*
+@media all and (max-width: 700px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+/*end of menu */
+
+
+/* Who we are */
+.the_team{
+	background-color: #fff;
+	color: var(--dorpip-blue);
+	padding: 4vw 3vw 2vw 3vw;
+	line-height: 1.7em;
+	max-width: 960px;
+	margin: auto;
+	border: 1px solid lightgray;
+
+}
+
+.team_bods{
+	display: flex;
+	align-content: space-between;
+}
+
+.team_bods_blurb{
+	flex: 3 ;
+	padding-right: 4vw;
+	color: var(--dorpip-blue);	
+}
+
+.team_bods_blurb p{
+	color: var(--dorpip-blue);
+}
+
+.team_bods_photo{
+	flex: 1 ;
+	margin-top: 2vw;
+	
+}
+
+.team_bods_symbol{
+	flex: 1;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	font-size: 10vw;	
+}
+
+
+
+/*  Links   */
+
+
+.interesting_links{
+	width: 60vw;
+	line-height: 1.5;
+	padding: 3vw 1vw 1vw 1vw;
+	background-color: #fff;
+	margin:auto;
+	border: 1px solid lightgray;
+}
+
+.interesting_links li {
+	margin: 2vw;
+	padding: 0 	0 2vw 0;
+	border-bottom: 1px solid var(--dorpip-grey);
+	list-style-type: none;
+ }
+
+.interesting_links h4{
+	color: var(--dorpip-pink);
+}
+
+.link_pairs{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.link_item{
+	margin: auto;
+	margin-right: 3vw;
+	margin-left: 0;
+}
+
+.link_item a{
+	text-decoration: none;
+	color: var(--dorpip-blue);
+}
+
+.link_item a:hover{
+	text-decoration: none;
+	color: var(--dorpip-pink);
+}
+
+/*.links_suggestions{
+	width: 5vw;
+	margin-right: 0;
+	max-width: 25vw;
+
+}  
+
+.links_suggestions_box{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	color: navy;
+	border: 1px solid var(--dorpip-blue);
+	border-radius: 1vw;
+	padding: 1vw;
+	margin-left: -5vw;
+	margin-top: 0vw;	
+} 
+*/
+
+/*Andrea_Leatham */
+.author{
+	color: orange;
+}
+
+.theme{
+	color: white;
+	background-color: orange;
+}
+
+.signoff{
+	font-style: italic;
+	}
+
+ .footer{
+	position:fixed;
+	bottom:0;
+	width: 100vw;
+	padding: .4vw;
+	margin: 0;
+	background-color: grey;
+	text-align: center;
+	font-family: 'chalkboard', arial, sans-serif;
+	font-size: .7em; 
+	color: black;
+ }
+ 
+ .awaiting-content{
+	 height:50vh;
+	 font-family: cursive;
+	 font-size: 2em;
+	 font-weight: 400;
+	 color: #a82727;
+	 vertical-align: middle;
+	 margin: auto; 
+ }
+ 
+ .awaiting-content p {
+	 text-shadow: 2px 1px  #bdb9b9;
+ }
+
+
+/* drop down vertical menu */
+
+ @media only screen and (max-width: 700px){ 
+
+
+/* define a fixed width for the entire menu */
+.drop {
+  width: 100%;
+}
+
+/* reset our lists to remove bullet points and padding */
+.drop_menu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.drop_menu a {
+  display: block;
+  background-color: #CCC;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+/* add hover behaviour */
+.drop_menu a:hover {
+    background-color: #C5C5C5;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.drop_menu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  background-color: #999;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+  background-color: #666;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+}
