@@ -19,7 +19,7 @@
 }
 
 body{
-	background-color: #e6effe;
+	background-color: var(--dorpip-background-color);
 	margin: 0;
 	padding: 0;
 	color: var(--dorpip-blue);
@@ -130,6 +130,9 @@ h4.menu-button{
 	.hamburger{
 		padding-right: 5vw;
 	}
+	body > div.quote{
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 700px){
@@ -160,14 +163,41 @@ position: relative;
 	/*background-color: #cac6c6; */
 }
 
+
+
 #booking_button{
 	position: relative;
+	float: right;
 	width: 200px;
 	height: 100px;
 	margin-top: 100vw;
 	margin-left: 20px;
 	background-color: aqua;
 }
+
+.tte-bn-c .tte-btn{
+	background-color: var(--dorpip-pink) !important;
+	box-shadow: .3vw .3vw gray !important;
+	position:relative;
+	float: right !important;
+	margin-right: 2vw !important;
+	margin-top: -1em;
+
+}
+
+a tte-btn-wrapper {
+
+}
+
+#tte-bn-c-0 > div:nth-child(2) > span{
+	color:var(--dorpip-background-color) !important;
+}
+
+#tte-bn-c-0 > div:nth-child(2) > a{
+	color:var(--dorpip-background-color) !important;
+}
+
+/*	background-color: var(--dorpip-background-color) !important; */
 
 .banner-photos-container{
 	display: inline-flex;
@@ -222,7 +252,7 @@ position: relative;
 
 
 .container-noflex-who{
-	width: 80vw;
+	width: 90vw;
 	max-width: 1200px;
 	background-color: #e6effe;
 	/*color: var(--dorpip-blue); */

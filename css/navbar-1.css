@@ -1,5 +1,6 @@
 /* CSSTerm.com Simple Horizontal DropDown CSS menu */
 
+@media only screen and (min-width: 700px){
 .drop_menu {
 	background-color: var(--dorpip-yellow);
 	padding:0;
@@ -62,3 +63,13 @@
 	color: var(--dorpip-pink); 
 		z-index: 100;
 }
+}
+
+@media only screen and (max-width: 700px){
+	.drop{
+		display: none;
+	}
+	.drop_menu{
+		display: none;
+	}
+} 

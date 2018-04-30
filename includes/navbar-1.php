@@ -1,15 +1,12 @@
-
-<div class="drop">
+<nav class="drop">
 <ul class="drop_menu">
 <li><a href='index.php'>Home</a>
 	
 </li>
 <li><a href='#'>About us</a>
-	<ul>
+	<ul class="submenu">
 		<li><a href='what.php'>Our vision & approach</a></li>		
-		<li><a href='#'>Our team</a></li>
-		<li><a href='who.php'> - our Trustees</a></li>
-		<li><a href='who.php#viv'> - our Founder</a></li> 
+		<li><a href='who.php'>Our team</a></li>
 		<!--<li><a href='awaiting.php'> - our Patrons</a></li>-->
 		<!--<li><a href='#'> - our Staff</a></li> -->
 		<li><a href='contact.php'>Testimonials</a></li>
@@ -18,7 +15,7 @@
 	</ul>
 	
 <li><a href='#'>Parents & Families</a>
-	<ul>
+	<ul class="submenu">
 		<!--<li><a href='awaiting.php'>Parent Infant Relationships</a></li>
 		<li><a href='awaiting.php'>Fathers</a></li>
 		<li><a href='awaiting.php'>How we help families</a></li>
@@ -32,7 +29,7 @@
 </li>
 
 <li><a href='#'>Professionals</a>
-	<ul>
+	<ul class="submenu">
 		<li><a href='contact.php'>Referrals</a></li>
 		<!--<li><a href='#'>Services</a></li>
 		<li><a href='awaiting.php'> - training</a></li>
@@ -48,7 +45,7 @@
 </li>
 
 <li><a href='#'>Fundraising</a>
-	<ul>
+	<ul class="submenu">
 		<!--<li><a href='awaiting.php'>Challenge yourself</a></li>
 		<li><a href='awaiting.php'>Corporate Partners</a></li> -->
 		<li><a href='contact.php'>Fundraise for us</a></li>
@@ -57,7 +54,7 @@
 	</ul>
 </li>
 <li><a href='#'>Media</a>
-	<ul>
+	<ul class="submenu">
 	<!--	<li><a href='awaiting.php'>In the press</a></li>
 		<li><a href='awaiting.php'>On the radio</a></li> -->
 		<li><a href='social-media.php'>Social Media</a></li>
@@ -69,4 +66,22 @@
 <li><a href='links.php'>Useful Links</a></li>
 
 </ul>
-</div>
+</nav>
+
+<!-- dropdown vertical menu
+	
+	<nav class="navigation">
+  <ul class="mainmenu">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Products</a>
+      <ul class="submenu">
+        <li><a href="">Tops</a></li>
+        <li><a href="">Bottoms</a></li>
+        <li><a href="">Footwear</a></li>
+      </ul>
+    </li>
+    <li><a href="">Contact us</a></li>
+  </ul>
+</nav> -->
+

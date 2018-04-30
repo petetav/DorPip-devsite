@@ -1,84 +1,82 @@
 <!DOCTYPE html>
-<html lang="en"
-<head>
-	<title>Contact Page</title>
-	<meta name="description" content="All about the Dorset Parent Infant Partnership.">
-
-	<?php include 'includes/head.php'; ?>
-                
-        <!-- Latest compiled and minified CSS -->
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-        <!-- Optional theme -->
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-       <link rel="stylesheet" href="form.css" >
-        <script src="form.js"></script>
-</head>
-    
-    
-    
-<body >
+<html lang="en">
 	
+<head>
+	
+	<title>Home page </title>
+	<meta name="description" content="All about the Dorset Parent Infant Partnership.">
+	
+	<?php include 'includes/head.php'; ?>	
+	
+
+</head>
+
+<body>
 	<div class="static_top">
-<!--masthead -->
-<div class="new_masthead">
-	<?php include 'includes/masthead.php'; ?>
+<!-- masthead -->
+	<?php include 'includes/masthead.php'; ?>	
+<!-- <div class="bg_gradient" width="100%"> -->
 
-<!--gradient spacer -->
-<div class="bg_gradient" width="100%">
-
-<!-- navbar-1 -->		
+<!-- navbar -->
 	<?php include 'includes/navbar-1.php'; ?> 
 
-</div>
-</div> <!--end of Static_top -->
+</div> <!-- end of Static_top -->
+
+
+
+<div class="banner-photos-container"> 
 	
-    		    	
-		    
-     
-            <!-- Form Started -->
-            <div class="container form-top">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                        <div class="panel panel-danger">
-                            <div class="panel-body">
-                                <form id="reused_form">
-                                    <div class="form-group">
-                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
-                                        <input type="email" name="email" class="form-control" placeholder="Enter Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
-                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
-                                    </div>
-                                </form>
-                                <div id="error_message" style="width:100%; height:100%; display:none; ">
-                                    <h4>
-                                        Error
-                                    </h4>
-                                    Sorry there was an error sending your form. 
-                                </div>
-                                <div id="success_message" style="width:100%; height:100%; display:none; ">
-<h2>Success! Your Message was Sent Successfully.</h2>
+	<div class="banner-photo">
+		<img src="img/photos/small/mother-daughter-love-sunset.jpg" alt="mother-daughter-love-sunset"></div>
+		
+	<div class="banner-photo">
+		<img src="img/photos/small/baby_on_shoulder.jpg" alt="baby_on_shoulder" width="100%"></div>
+		
+	<div class="banner-photo">
+		<img src="img/photos/small/baby_hand.jpg" alt="baby_hand" width="100%"></div>
+		
+	<div class="banner-photo">
+		<img src="img/photos/small/mother-baby%20cuddle.jpg" alt="mother-baby%20cuddle"></div>
+		
+	<div class="banner-photo">
+		<img src="img/photos/small/father_%26_baby_sunset.jpg" alt="father_%26_baby_sunset"></div>
+	
 </div>
-                            </div>
+
+	<div class="quote"> "A person's a person, no matter how small."
+— Dr. Seuss</div>
+</div>
+
+
+<div class="container-noflex">
+
+<div class="blurb-noflex">
+	
+<!--page stuff goes here -->
+                        <iframe height="517"
+                                allowTransparency="true"
+                                frameborder="0"
+                                scrolling="no"
+                                style="width:100%;border:none"
+                                src="https://petethepilot.wufoo.com/embed/r9mntd715auekp/">
+                          <a href="https://petethepilot.wufoo.com/forms/r9mntd715auekp/">
+                           
+                          </a>
+                        </iframe>
+                        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Form Ended -->
-        </div>
+                                              
+
+
+
+</div> <!-- end of blurb -->
+	
+
+</div> <!-- end of container -->
 <br><br>
 <footer>
 	<?php include 'includes/footer.php'; ?>
 </footer>
-    </body>
+
+</body>
 </html>
