@@ -9,7 +9,7 @@
 		<li><a href='who.php'>Our team</a></li>
 		<!--<li><a href='awaiting.php'> - our Patrons</a></li>-->
 		<!--<li><a href='#'> - our Staff</a></li> -->
-		<li><a href='contact.php'>Testimonials</a></li>
+		<li><a href='testimonials.php'>Testimonials</a></li>
 		<li><a href='legal.php'>A legal notice</a></li>
 		<li><a href='contact.php'>Work or Volunteer</a></li>
 		<li><a href='contact.php'>Contact Us</a></li>				

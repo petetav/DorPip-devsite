@@ -61,12 +61,14 @@ body{
 
 .logo{
 	width: 9.6vw;
-	height: 7.5vw;
-	background-image: url(../img/graphics/baby-red-125px.jpg);
-	background-repeat: no-repeat;
+	height: 9.5vw;
+	/* background-image: url(../img/graphics/baby-red-125px.jpg); */
+	background-image: url(../img/graphics/dorpip_sticker.svg); 
 	display: inline-block;
+	background-position: center center;
 	background-size: contain;
-	margin: 1vw 0 0 2vw;
+	background-repeat: no-repeat;
+	margin-right: 2vw;
 }
 	
 .logo_text_pink{
@@ -81,6 +83,13 @@ body{
 	color: var(--dorpip-blue);
 }
 
+span.logo_text_pink{
+	vertical-align: top;
+}
+
+span.logo_text_blue{
+	vertical-align: top;	
+}
 
 .donate{
 	margin: 1vw 1vw 0  0;
