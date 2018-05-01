@@ -1,3 +1,4 @@
+/* ******fonts **** */
 @font-face {
   font-family: 'chalkboard';
   src:  url('../fonts/chalkboard.woff2') format('woff2'),
@@ -13,7 +14,9 @@
 	src: url('../fonts/BPreplay.otf');
 }
 
- 
+
+
+/* *** body *** */ 
 *{
 	box-sizing: border-box;
 }
@@ -28,11 +31,13 @@ body{
 }
 
 
+
 /* Static top */
 .static_top{
 	position:sticky;
 	top: 0px;
 }
+
 
 
 /******** masthead   *********/
@@ -62,7 +67,6 @@ body{
 .logo{
 	width: 9.6vw;
 	height: 9.5vw;
-	/* background-image: url(../img/graphics/baby-red-125px.jpg); */
 	background-image: url(../img/graphics/dorpip_sticker.svg); 
 	display: inline-block;
 	background-position: center center;
@@ -102,8 +106,6 @@ span.logo_text_blue{
     }
 }
 
-
-
 .menu-button a {
 	color: var(--dorpip-pink);
 	text-decoration: none;
@@ -129,8 +131,10 @@ h4.menu-button{
 	vertical-align: super;
 }
 
-/*replace the top menu items with hambuger menu */
 
+
+
+/*replace the top menu items with hambuger menu */
 
 @media only screen and (max-width: 700px){
 	.menu-button a {
@@ -157,6 +161,9 @@ position: relative;
 	background-image: -webkit-linear-gradient(#ffffff 0%, #e6effe 100%);
 }
 
+
+
+
 /*  Pages   */
 
 .quote{
@@ -169,11 +176,9 @@ position: relative;
 	font-size: 1vw;
 	margin: 0;
 	margin-top: -5vw;	
-	/*background-color: #cac6c6; */
 }
 
-
-
+/* booking button */
 #booking_button{
 	position: relative;
 	float: right;
@@ -206,19 +211,18 @@ a tte-btn-wrapper {
 	color:var(--dorpip-background-color) !important;
 }
 
-/*	background-color: var(--dorpip-background-color) !important; */
 
+
+/*banner photos */
 .banner-photos-container{
 	display: inline-flex;
 	flex-wrap: nowrap;
 	width: 100%;
-	/*border-bottom: 5px solid grey;
-	/*box-shadow: inset 0 0 10px black;*/
 }
+
 
 .banner-photo{
 	flex: 1;
-
 }
 
 .banner-photo img{
@@ -226,18 +230,6 @@ a tte-btn-wrapper {
 }
 
 	
-.the_team{
-	color: var(--dorpip-blue);
-}
-
-.the_team_bods{
-	display: flex;		
-}
-
-
-
-
- 
 .container{
 	display:flex;
 	flex-wrap: column;
@@ -259,22 +251,21 @@ a tte-btn-wrapper {
 	padding: 0;
 }
 
-
 .container-noflex-who{
 	width: 90vw;
 	max-width: 1200px;
 	background-color: #e6effe;
-	/*color: var(--dorpip-blue); */
 	margin: auto;
 	padding: 0;
 }
+
+
 
 @media only screen and (max-width: 1000px) {
    .container-noflex {
         width: 90vw;
     }
 }
-
 
 .twitterbox{
 	flex: 1 ;
@@ -306,14 +297,12 @@ a tte-btn-wrapper {
 	margin: auto;
 	margin-top: 1vw;
 	border: 1px solid lightgray;
-
 }
 
 .blurb-noflex a {
 	color:  var(--dorpip-pink);
 	text-decoration: none;
 }
-
 
 .blurb li{
 	color: var(--dorpip-blue);
@@ -338,7 +327,6 @@ li{
 .navigation {
   list-style: none;
   margin: 0;
-  /*background: deepskyblue; */
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
@@ -354,38 +342,10 @@ li{
 }
 
 .navigation a:hover {
-  /*background: #00b7f5; */
   color: var(--dorpip-pink);
   font-family: 'chalkboard', arial, sans-serif;
   font-size: 1.5vw;
 }
-
-/*@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  } 
-} */
-/*
-@media all and (max-width: 700px) {
-  .navigation {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    padding: 0;
-  }
-
-  .navigation a {
-    text-align: center;
-    padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
-}
-
-/*end of menu */
 
 
 /* Who we are */
@@ -397,7 +357,6 @@ li{
 	max-width: 960px;
 	margin: auto;
 	border: 1px solid lightgray;
-
 }
 
 .team_bods{
@@ -411,28 +370,13 @@ li{
 	color: var(--dorpip-blue);	
 }
 
-.team_bods_blurb p{
-	color: var(--dorpip-blue);
-}
-
 .team_bods_photo{
 	flex: 1 ;
-	margin-top: 2vw;
-	
-}
-
-.team_bods_symbol{
-	flex: 1;
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-	font-size: 10vw;	
+	margin-top: 2vw;	
 }
 
 
-
-/*  Links   */
-
+/* ******* Links ******  */
 
 .interesting_links{
 	width: 60vw;
@@ -457,8 +401,7 @@ li{
 .link_pairs{
 	display: flex;
 	justify-content: space-around;
-	
-}
+	}
 
 .link_item{
 	margin: auto;
@@ -476,28 +419,8 @@ li{
 	color: var(--dorpip-pink);
 }
 
-/*.links_suggestions{
-	width: 5vw;
-	margin-right: 0;
-	max-width: 25vw;
-
-}  
-
-.links_suggestions_box{
-	width: 100%;
-	height: auto;
-	background-color: #fff;
-	color: navy;
-	border: 1px solid var(--dorpip-blue);
-	border-radius: 1vw;
-	padding: 1vw;
-	margin-left: -5vw;
-	margin-top: 0vw;	
-} 
-*/
-
 /*Andrea_Leatham */
-.author{
+/*.author{
 	color: orange;
 }
 
@@ -509,7 +432,10 @@ li{
 .signoff{
 	font-style: italic;
 	}
+*/
 
+
+/*footer */
  .footer{
 	position:fixed;
 	bottom:0;
@@ -522,7 +448,9 @@ li{
 	font-size: .7em; 
 	color: black;
  }
- 
+
+
+/*awaiting content */ 
  .awaiting-content{
 	 height:50vh;
 	 font-family: cursive;

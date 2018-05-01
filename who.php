@@ -126,12 +126,7 @@
 
 <br/>
 
-
-
-
-
 </div>
-
 
 </div> <!-- end of container --> 
 <br><br>
